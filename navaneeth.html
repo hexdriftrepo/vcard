@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Navaneeth Venugopal | Co-founder & CEO, Hexdrift</title>
+
+    <!-- Meta tags for SEO & Social Previews -->
+    <meta name="description"
+        content="Digital Business Card for Navaneeth Venugopal, Co-founder & CEO of Hexdrift. Connect with me via Call, Email, LinkedIn, or download my Contact Card.">
+    <meta property="og:title" content="Navaneeth Venugopal | Co-founder & CEO, Hexdrift">
+    <meta property="og:description"
+        content="Digital Business Card for Navaneeth Venugopal. Connect, save contact, or share.">
+    <meta property="og:type" content="profile">
+    <meta property="og:image"
+        content="https://media.licdn.com/dms/image/v2/D5603AQHD4ECspmScVw/profile-displayphoto-scale_200_200/B56ZvAPnK8GwAg-/0/1768456877277?e=1783555200&v=beta&t=ol68tVWniD7bcr2uEbJx4PJCIDofaOKQJXRGUfMNqfA">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- QR Code Generator Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background glowing blobs -->
+    <div class="blob-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="app-container">
+        <main class="card-wrapper">
+            <!-- Glassmorphic Card Container -->
+            <div class="card">
+                <!-- Top Brand Strip -->
+                <div class="card-brand-header">
+                    <img src="logo.webp" alt="Hexdrift Logo" class="brand-logo" id="brand-logo-img">
+
+                </div>
+
+                <!-- Profile Section -->
+                <div class="profile-section">
+                    <div class="avatar-container">
+                        <div class="avatar-ring"></div>
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQHD4ECspmScVw/profile-displayphoto-scale_200_200/B56ZvAPnK8GwAg-/0/1768456877277?e=1783555200&v=beta&t=ol68tVWniD7bcr2uEbJx4PJCIDofaOKQJXRGUfMNqfA"
+                            alt="Navaneeth Venugopal" class="profile-photo">
+                    </div>
+                    <h1 class="profile-name">Navaneeth Venugopal</h1>
+                    <p class="profile-designation">Co-founder & CEO</p>
+                    <div class="company-badge">
+                        <i data-lucide="layers" class="badge-icon"></i>
+                        <span>Hexdrift LLP</span>
+                    </div>
+                </div>
+
+                <!-- Quick Communication Actions -->
+                <div class="action-grid">
+                    <a href="tel:8129110135" class="action-item" id="btn-call" aria-label="Call Navaneeth">
+                        <div class="action-icon-box">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <span class="action-label">Call</span>
+                    </a>
+                    <a href="mailto:Navaneeth@hexdrift.com" class="action-item" id="btn-email"
+                        aria-label="Email Navaneeth">
+                        <div class="action-icon-box">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <span class="action-label">Email</span>
+                    </a>
+                    <a href="https://wa.me/918129110135" target="_blank" rel="noopener" class="action-item"
+                        id="btn-whatsapp" aria-label="Message Navaneeth on WhatsApp">
+                        <div class="action-icon-box">
+                            <i data-lucide="message-square"></i>
+                        </div>
+                        <span class="action-label">WhatsApp</span>
+                    </a>
+                </div>
+
+                <!-- Primary Action: Save Contact Card -->
+                <button class="btn-save-contact" id="btn-save-contact">
+                    <i data-lucide="user-plus" class="btn-icon" style="color: white;"></i>
+                    <span style="color:white">Save Contact to Phone</span>
+                </button>
+
+                <!-- Information/Social Connections List -->
+                <div class="links-section">
+                    <h2 class="section-title">Connect & Explore</h2>
+
+                    <a href="https://hexdrift.com" target="_blank" rel="noopener" class="link-card">
+                        <div class="link-content">
+                            <div class="link-icon-box website-color">
+                                <i data-lucide="globe"></i>
+                            </div>
+                            <div class="link-details">
+                                <span class="link-title">Official Website</span>
+                                <span class="link-subtitle">hexdrift.com</span>
+                            </div>
+                        </div>
+                        <i data-lucide="chevron-right" class="arrow-icon"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/hexdrift/" target="_blank" rel="noopener"
+                        class="link-card">
+                        <div class="link-content">
+                            <div class="link-icon-box linkedin-color">
+                                <img src="./linkedin.png" style="width: 16px; height: 16px;" />
+                            </div>
+                            <div class="link-details">
+                                <span class="link-title">LinkedIn Profile</span>
+                                <span class="link-subtitle">Professional network</span>
+                            </div>
+                        </div>
+                        <i data-lucide="chevron-right" class="arrow-icon"></i>
+                    </a>
+
+                    <a href="./Company_Profile.pdf" download="Company_Profile.pdf" class="link-card">
+                        <div class="link-content">
+                            <div class="link-icon-box">
+                                <img src="./favicon-16x16.png" style="width: 16px; height: 16px;" alt="">
+                            </div>
+                            <div class="link-details">
+                                <span class="link-title">Company Profile</span>
+                                <span class="link-subtitle">Download PDF</span>
+                            </div>
+                        </div>
+                        <i data-lucide="chevron-right" class="arrow-icon"></i>
+                    </a>
+                </div>
+
+                <!-- Utility Footer Actions -->
+                <div class="utility-actions">
+                    <button class="btn-utility" id="btn-share" aria-label="Share Business Card">
+                        <i data-lucide="share-2"></i>
+                        <span>Share</span>
+                    </button>
+                    <button class="btn-utility" id="btn-qrcode-trigger" aria-label="Show QR Code">
+                        <i data-lucide="qr-code"></i>
+                        <span>QR Code</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Interactive QR Code Modal -->
+        <div class="modal-overlay" id="qrcode-modal" aria-hidden="true" role="dialog">
+            <div class="modal-content">
+                <button class="modal-close" id="modal-close" aria-label="Close modal">
+                    <i data-lucide="x"></i>
+                </button>
+                <div class="modal-header">
+                    <h3>Scan QR Code</h3>
+                    <p>Scan this QR code with another smartphone camera to view this digital business card instantly.
+                    </p>
+                </div>
+                <div class="qrcode-wrapper">
+                    <div id="qrcode-container"></div>
+                </div>
+                <div class="modal-footer-brand">
+                    <img src="logo.webp" alt="Hexdrift Logo" class="brand-logo-small">
+                    <span>Hexdrift Card Platform</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive toast notification -->
+        <div class="toast" id="toast" role="alert" aria-live="assertive">
+            <i data-lucide="check-circle" class="toast-icon"></i>
+            <span class="toast-message" id="toast-message">Copied to clipboard!</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
